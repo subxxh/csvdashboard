@@ -13,8 +13,7 @@ st.set_page_config(
 
 alt.themes.enable("quartz")
 
-#dataset from website link
-filecsv = "/Users/subah/Downloads/streamlit/dohmh-farmers-markets-1.csv"
+filecsv = "dohmh-farmers-markets-1.csv"
 df = pd.read_csv(filecsv)
 
 with st.sidebar:
